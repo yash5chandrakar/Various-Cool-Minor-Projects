@@ -1,0 +1,81 @@
+#input:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.butn:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.box {
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    background: radial-gradient(lightblue 10%, rgb(106, 106, 211));
+    min-height: 98vh;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.error,
+input,
+button {
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.box1 {
+    font-size: 25px;
+}
+
+ul li {
+    padding: 5px 0px;
+    transform: scale(1.1);
+    transition: 1s;
+    width: 250px;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    right: 25px;
+    border: 3px solid black;
+    margin-bottom: 8px;
+    width: inherit;
+}
+
+ul li button {
+    float: right;
+    position: relative;
+    bottom: 1.5px;
+}
+
+ul li input.largeCheckbox {
+    width: 20px;
+    height: 20px;
+}
+
+.main {
+    min-height: 98vh;
+}
+
+.content {
+    padding-top: 20px;
+    padding: 20px 100px;
+    margin: 50px 100px;
+    border: 5px solid rgb(1, 1, 65);
+    /* background-color: rgb(72, 149, 197); */
+    border-radius: 25px;
+    background: radial-gradient(rgb(215, 210, 210) 20%, cyan);
+}
