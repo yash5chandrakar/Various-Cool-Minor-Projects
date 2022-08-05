@@ -1,0 +1,113 @@
+/* #input:hover {
+    transform: scale(1.1);
+    transition: 1s;
+} */
+
+.butn:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box button {
+    border-radius: 25px;
+}
+
+.head {
+    background-color: rgb(92, 167, 229);
+    border-radius: 25px;
+    color: white;
+    box-shadow: 10px 10px black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    background: radial-gradient(lightblue 10%, rgb(106, 106, 211));
+    min-height: 97vh;
+    border-radius: 25px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+
+}
+
+.error {
+    margin-top: 5px;
+    color: red;
+}
+
+.error,
+input,
+button {
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.box1 {
+    font-size: 25px;
+    height: 350px;
+    overflow-y: scroll;
+}
+
+.box1::-webkit-scrollbar {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box1::-webkit-scrollbar-thumb {
+    background-color: rgb(92, 167, 229);
+    border-radius: 10px;
+}
+
+
+ul li {
+    padding: 5px 0px;
+    margin: 10px;
+    transform: scale(1.1);
+    transition: 1s;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    right: 25px;
+    border: 3px solid black;
+    margin-bottom: 8px;
+    width: inherit;
+}
+
+ul li button {
+    float: right;
+    position: relative;
+    bottom: 1.5px;
+    width: 60px;
+    height: max-content;
+    background-color: orange;
+}
+
+ul li button:hover {
+    background-color: white;
+}
+
+ul li input.largeCheckbox {
+    width: 20px;
+    height: 20px;
+}
+
+.content {
+    padding-top: 20px;
+    padding: 20px 100px;
+    margin: 50px 100px;
+    /* border: 5px solid rgb(1, 1, 65); */
+    border-radius: 25px;
+    background: radial-gradient(rgb(215, 210, 210) 20%, cyan);
+}
