@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 97vh;
+    background-image: url(ales-krivec-4miBe6zg5r0-unsplash.jpg);
+    background-size: cover;
+    border-radius: 25px;
+}
+
+h1 {
+    color: mediumpurple;
+    text-decoration: underline;
+}
+
+p {
+    color: white;
+}
+
+button {
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 5px 5px black;
+}
+
+.content {
+    justify-content: center;
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+    /* border: 5px solid black; */
+    padding: 20px;
+    margin: 0px 30px;
+    border-radius: 25px;
+    /* background: radial-gradient(lightgrey, darkgrey); */
+    box-shadow: 10px 10px 10px 10px black;
+
+}
