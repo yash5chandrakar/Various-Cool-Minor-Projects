@@ -84,9 +84,14 @@ ul li button {
     float: right;
     position: relative;
     bottom: 1.5px;
-    width: 60px;
+    width: 45px;
     height: max-content;
     background-color: orange;
+    display: none;
+}
+
+ul li:hover>button {
+    display: block;
 }
 
 ul li button:hover {
