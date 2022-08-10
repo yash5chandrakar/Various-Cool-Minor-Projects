@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourite Movie List</title>
+    <link rel="stylesheet" href="movie.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <form action="" class="form">
+                <div id="formtab" class="acutalform">
+                    <h3>Add Movie :</h3>
+                    <h4>Title :</h4>
+                    <input type="text" id="title" maxlength="25" required>
+                    <h4>Image URL :</h4>
+                    <input type="text" id="image" required>
+                    <h4>Rating :</h4>
+                    <span>Very Poor <input onchange="showValue()" type="range" min="1" max="10" id="rating" required>
+                        Very Good </span>
+                    <span></span>
+                    <br>
+                    <div id="btn"><button onclick="addItem()" value="sumbit">Save</button></div>
+                </div>
+            </form>
+        </div>
+
+        <div class="content">
+            <h1>Movie Details</h1>
+
+            <table id="tabledata">
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Rating</th>
+                    <th></th>
+                </tr>
+                <tr id="item1">
+                    <td><img src="https://upload.wikimedia.org/wikipedia/en/2/2f/Rocketry_The_Nambi_Effect.jpg">
+                    </td>
+                    <td>Rocketry : The Nambi Effect</td>
+                    <td><button onclick="increment(this.value)" value="counter1">👍</button>
+                        <span id="counter1">10</span><button onclick="decrement(this.value)"
+                            value="counter1">👎</button>
+                    </td>
+                    <td><button onclick="deleteElement(this.value)" value="item1">🗑️</button></td>
+                </tr>
+            </table>
+            <div id="displayform"><button onclick="displayForm()">Add New</button></div>
+        </div>
+    </div>
+
+
+</body>
+<script src="movie.js"></script>
+
+</html>
