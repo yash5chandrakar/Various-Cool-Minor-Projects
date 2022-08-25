@@ -9,7 +9,8 @@ Created Various Minor projects using HTML/CSS/Javascript like Rock Paper Scissor
 4. To do App.
 5. Dog Gallery.
 6. Jokes App.
-7. Stopwatch.
+7. Favourite Movie Ratings.
+7. A simple Stopwatch.
 
 # Link
 <a href="https://yash5chandrakar.github.io/Various-Cool-Minor-Projects/">Link</a>
