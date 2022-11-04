@@ -11,6 +11,7 @@ Created Various Minor projects using HTML/CSS/Javascript like Rock Paper Scissor
 6. Jokes App.
 7. Favourite Movie Ratings.
 7. A simple Stopwatch.
+8. Tic Tac Toe Game.
 
 # Link
 <a href="https://yash5chandrakar.github.io/Various-Cool-Minor-Projects/">Link</a>
